@@ -161,7 +161,7 @@ jQuery(document).ready(()=>{
         }
         else if (currReason == 'height'){
             height = parseInt(reply);
-            if(Number.isInteger(weight)){
+            if(Number.isInteger(height)){
                 if(height >= 100 ){
                     respond("That's great, " + name + '!')
                     ask('you are doing good so far '+ name + '! May I know how much do you weight in kilograms ? ', reasons[4])
